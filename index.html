@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melhores Amigos 💛</title>
+
+    <!-- Conectando o CSS -->
+    <link rel="stylesheet" href="gaby.css">
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Minha Perturbação Favorita 💙🤍</h1>
+
+        <div class="foto">
+            <img id="fotoGaby" src="gaby.jpg" alt="Foto da Gaby" onclick="trocarFoto()">
+        </div>
+
+        <p>
+            <span class="highlight">Gaby</span> é mais do que especial para mim, ela simplesmente é a única amizade que
+            quero para sempre, até porque ela simplesmente apareceu quando menos esperei.
+            A amizade dela transforma dias simples em momentos inesquecíveis.
+        </p>
+
+        <p>
+            O <span class="highlight">sorriso dela</span> ilumina todos os meus dias,
+            e seus olhos, como <span class="highlight">olhos de jabuticaba</span>, têm um brilho único.
+        </p>
+
+        <p>
+            Ela é linda, perfeita do jeitinho dela. Mesmo com problemas,
+            ela sempre pensa nos outros antes de si mesma.
+            Mesmo diante das turbulências da nossa amizade,
+            eu espero que você tenha medo de me perder,
+            assim como eu tenho medo de perder você.
+        </p>
+
+        <footer>
+            Eu sempre vou estar aqui, minha garota 💙
+        </footer>
+    </div>
+
+    <script>
+        function trocarFoto() {
+            const foto = document.getElementById("fotoGaby");
+
+            if (foto.src.includes("gaby.jpg")) {
+                foto.src = "gaby2.jpg";
+            } else {
+                foto.src = "gaby.jpg";
+            }
+        }
+    </script>
+
+</body>
+</html>
